@@ -26,7 +26,7 @@ install_basic_tools() {
     
     python3 -m venv venv
     source venv/bin/activate
-    sudo pip install -r requirements.txt
+    pip install -r requirements.txt
 }
 
 

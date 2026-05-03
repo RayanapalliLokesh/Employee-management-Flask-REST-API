@@ -24,6 +24,7 @@ install_basic_tools() {
         python3 python3-pip python3-venv \
         software-properties-common apt-transport-https ca-certificates gnupg lsb-release
     
+    python3 -m venv venv
     source venv/bin/activate
     sudo pip install -r requirements.txt
 }
